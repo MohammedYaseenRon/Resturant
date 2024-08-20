@@ -46,7 +46,7 @@ body {
     color: #e63946;
 }
 
-.login-btn {
+.signup-bttn {
     padding: 10px 20px;
     border-radius: 20px;
     border: none;
@@ -59,7 +59,7 @@ body {
 }
 
 /* Hover effect for Login Button */
-.login-btn:hover {
+.signup-bttn:hover {
     background-color: #c5303e;
 }
 
@@ -922,4 +922,67 @@ input{
 .contact-btn:hover{
     background-color: #0056b3;
 }
+
+
+/* ------------------------------------------ */
+
+
+.signup-content, .signin-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-container, .signin-container {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.signup-btn, .signin-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+.signup-btn:hover, .signin-btn:hover {
+    background: #218838;
+}
+
+p {
+    text-align: center;
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
 

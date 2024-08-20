@@ -1,7 +1,36 @@
 
-document.querySelector('.nav-toggle').addEventListener('click',function(){
-    document.querySelector('.nav-list').classList.toggle('active');
-});
+
+// --------------------------------------------
+
+     
+function handleSignup(event) {
+    event.preventDefault();
+    const username = document.getElementById('username').value;
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+
+  
+    localStorage.setItem('username', username);
+
+  
+    window.location.href ='index.html'; 
+}
+
+
+
+
+function handleSignin(event) {
+    event.preventDefault();
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+
+    // Perform signin logic (e.g., send data to server)
+    console.log('Signin data:', { email, password });
+}
+
+
+
+// ----------------------------------------------
 
 // -----------reservation-------------
 
